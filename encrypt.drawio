@@ -1,10 +1,10 @@
 <mxfile>
     <diagram id="boIPRINJ2YQL5eu0XOoe" name="第 1 页">
-        <mxGraphModel dx="1178" dy="707" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1008" dy="606" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="8" edge="1">
+                <mxCell id="4" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#5AA9E6;" parent="1" source="2" target="8" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="408" y="249" as="targetPoint"/>
                         <Array as="points"/>
@@ -13,27 +13,29 @@
                 <mxCell id="2" value="发送方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" parent="1" vertex="1">
                     <mxGeometry x="47" y="229" width="30" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="101" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" edge="1" parent="1" source="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="885" y="178" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="3" value="接收方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" parent="1" vertex="1">
                     <mxGeometry x="870" y="229" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" parent="1" source="8" target="37" edge="1">
+                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" parent="1" source="8" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="269" y="259" as="targetPoint"/>
+                        <mxPoint x="317" y="259" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="hello" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                <mxCell id="8" value="hello" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="130" y="229" width="88" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" parent="1" source="18" target="32" edge="1">
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" parent="1" source="18" target="113" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="468" y="259" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="475" y="259"/>
-                            <mxPoint x="475" y="256"/>
-                        </Array>
+                        <mxPoint x="579" y="264" as="targetPoint"/>
+                        <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;fillColor=#CCCBCB;rounded=0;sketch=0;fontColor=#5AA9E6;strokeColor=none;" parent="1" vertex="1">
+                <mxCell id="18" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;fillColor=#CCCBCB;rounded=0;sketch=0;strokeColor=none;fontColor=#5AA9E6;" parent="1" vertex="1">
                     <mxGeometry x="451" y="233" width="27" height="52" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="接收方私钥" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;rounded=0;sketch=0;fontColor=#5AA9E6;" parent="1" vertex="1">
@@ -42,28 +44,22 @@
                 <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" parent="1" source="26" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="hello" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                <mxCell id="26" value="hello" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="731" y="229" width="88" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="89" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#0000CC;" edge="1" parent="1" source="32">
+                <mxCell id="89" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" edge="1" parent="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="729" y="258" as="targetPoint"/>
+                        <mxPoint x="633" y="258" as="sourcePoint"/>
                         <Array as="points">
                             <mxPoint x="729" y="258"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" value="RAS解密" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.lock_unprotected;fillColor=#DA4026;rounded=0;sketch=0;fontColor=#5AA9E6;" parent="1" vertex="1">
-                    <mxGeometry x="595" y="222.5" width="38" height="55" as="geometry"/>
-                </mxCell>
-                <mxCell id="35" value="接收方公钥" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#2072B8;rounded=0;sketch=0;fontColor=#5AA9E6;" parent="1" vertex="1">
-                    <mxGeometry x="255" y="178.5" width="25" height="53" as="geometry"/>
-                </mxCell>
-                <mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#0000CC;" parent="1" source="37" target="18" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="37" value="RAS加密" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.lock_protected;fillColor=#2072B8;rounded=0;sketch=0;fontColor=#5AA9E6;" parent="1" vertex="1">
-                    <mxGeometry x="328" y="233" width="38" height="52" as="geometry"/>
+                <mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" parent="1" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="366" y="259" as="sourcePoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" parent="1" source="39" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -73,24 +69,24 @@
                 <mxCell id="39" value="发送方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" parent="1" vertex="1">
                     <mxGeometry x="47" y="490.5" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="91" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#0000CC;" edge="1" parent="1" source="44" target="47">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="44" value="hello" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="127" y="490.5" width="88" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="48" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" parent="1" source="47" edge="1" target="49">
+                <mxCell id="91" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" edge="1" parent="1" source="44">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="429" y="515.5" as="targetPoint"/>
+                        <mxPoint x="337" y="520.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="47" value="AES加密" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.lock_protected;fillColor=#2072B8;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#5AA9E6;" parent="1" vertex="1">
-                    <mxGeometry x="337" y="494.5" width="38" height="52" as="geometry"/>
+                <mxCell id="44" value="hello" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="127" y="490.5" width="88" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#0000CC;" edge="1" parent="1" source="49" target="51">
+                <mxCell id="48" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" parent="1" edge="1" target="49">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="429" y="515.5" as="targetPoint"/>
+                        <mxPoint x="375" y="520.5" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" edge="1" parent="1" source="49" target="51">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;fillColor=#CCCBCB;rounded=0;sketch=0;fontColor=#5AA9E6;strokeColor=none;" parent="1" vertex="1">
+                <mxCell id="49" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;fillColor=#CCCBCB;rounded=0;sketch=0;strokeColor=none;fontColor=#5AA9E6;" parent="1" vertex="1">
                     <mxGeometry x="455" y="494.5" width="27" height="52" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" parent="1" source="51" edge="1">
@@ -106,7 +102,7 @@
                         <mxPoint x="864" y="521" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="54" value="hello" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                <mxCell id="54" value="hello" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="715" y="490.5" width="88" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="接收方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" parent="1" vertex="1">
@@ -116,7 +112,7 @@
                     <mxGeometry x="255" y="437.5" width="25" height="53" as="geometry"/>
                 </mxCell>
                 <mxCell id="70" value="秘钥" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#5AA9E6;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="444" width="25" height="53" as="geometry"/>
+                    <mxGeometry x="510" y="437.5" width="25" height="53" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="明文" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#5AA9E6;" parent="1" vertex="1">
                     <mxGeometry x="250.5" y="530.5" width="34" height="18" as="geometry"/>
@@ -141,6 +137,35 @@
                 </mxCell>
                 <mxCell id="82" value="明文" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#5AA9E6;" parent="1" vertex="1">
                     <mxGeometry x="659" y="235" width="34" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" edge="1" parent="1" source="99">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="267.5" y="174.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="105" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" edge="1" parent="1" source="99" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="一对公私钥" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.lock_with_key_security_orange;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#5AA9E6;" vertex="1" parent="1">
+                    <mxGeometry x="861.5" y="98" width="47" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="公钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#5AA9E6;" vertex="1" parent="1">
+                    <mxGeometry x="345" y="105" width="34" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="私钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#5AA9E6;" vertex="1" parent="1">
+                    <mxGeometry x="538" y="142" width="34" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="&lt;font&gt;RAS加密&lt;/font&gt;" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.secure_messaging;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#5AA9E6;" vertex="1" parent="1">
+                    <mxGeometry x="315" y="239" width="55" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="&lt;span style=&quot;color: rgb(90 , 169 , 230)&quot;&gt;接收方公钥&lt;/span&gt;" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.lock_unprotected;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="248.5" y="174.5" width="38" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="&lt;span style=&quot;color: rgb(90 , 169 , 230)&quot;&gt;RAS解密&lt;/span&gt;" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.lock_unprotected;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="594" y="231.5" width="38" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="&lt;span style=&quot;color: rgb(90 , 169 , 230)&quot;&gt;AES加密&lt;/span&gt;" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.lock_protected;fillColor=#DA4026;rounded=0;labelBackgroundColor=none;sketch=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="337" y="494.5" width="38" height="52" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

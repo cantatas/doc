@@ -6,6 +6,7 @@
 ### 四、Hash算法
 ### 五、量子加密
 
+<br />
 
 ## 一、密码学发展史
 <p>密码学的诞生，就是为了运用在战场，在公元前，战争之中出现了秘密书信。在中国历史上最早的加密算法的记载出自于周朝兵书《六韬.龙韬》中的《阴符》和《阴书》。
@@ -51,9 +52,9 @@
 
 
 ### 常用算法：
-* DES（Data Encryption Standard）：数据加密标准，速度较快，适用于加密大量数据的场合。
-* 3DES（Triple DES）：是基于DES，对一块数据用三个不同的密钥进行三次加密，强度更高。
-* AES（Advanced Encryption Standard）：高级加密标准，DES的升级版，是下一代的加密算法标准，速度快，安全级别高(微信小程序加密传输也是这种方式）；
+* DES（Data Encryption Standard）：数据加密标准，速度较快，适用于加密大量数据的场合
+* 3DES（Triple DES）：是基于DES，对一块数据用三个不同的密钥进行三次加密，强度更高
+* AES（Advanced Encryption Standard）：高级加密标准，DES的升级版，是下一代的加密算法标准，速度快，安全级别高(微信小程序加密传输也是这种方式）
 
 
 ### 图解
@@ -94,9 +95,9 @@ const decryptedData = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
 * 前提：首次通信时发送方接收了接收方的公钥，并保存在本地
 
 ### 常用算法
-* RSA：由 RSA 公司发明，是一个支持变长密钥的公共密钥算法，需要加密的文件块的长度也是可变的；
-* DSA（Digital Signature Algorithm）：数字签名算法，是一种标准的 DSS（数字签名标准）；
-* ECC（Elliptic Curves Cryptography）：椭圆曲线密码编码学。
+* RSA：由 RSA 公司发明，是一个支持变长密钥的公共密钥算法，需要加密的文件块的长度也是可变的
+* DSA（Digital Signature Algorithm）：数字签名算法，是一种标准的 DSS（数字签名标准）
+* ECC（Elliptic Curves Cryptography）：椭圆曲线密码编码学
 
 
 ### 图解
@@ -134,9 +135,8 @@ Hash，一般翻译做“散列”，也有直接音译为“哈希”的，就�
 * 使用场景：文件或字符串一致性校验、数字签名、鉴权协议
 
 ### 常用算法
-* RSA：由 RSA 公司发明，是一个支持变长密钥的公共密钥算法，需要加密的文件块的长度也是可变的；
-* DSA（Digital Signature Algorithm）：数字签名算法，是一种标准的 DSS（数字签名标准）；
-* ECC（Elliptic Curves Cryptography）：椭圆曲线密码编码学。
+* MD5（Message Digest Algorithm 5）：是RSA数据安全公司开发的一种单向散列算法，非可逆，相同的明文产生相同的密文
+* SHA（Secure Hash Algorithm）：可以对任意长度的数据运算生成一个160位的数值
 
 ### js开源库
 
