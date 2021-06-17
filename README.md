@@ -38,7 +38,7 @@
 </p>
 <br />
 
-### 几种古典密码学:
+### 古典密码学的几种:
 * 滚桶密码
 * 掩格密码
 * 棋盘密码
@@ -130,6 +130,24 @@ const decryptedData = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
 ### 图解
 <img src="./imgs/feiduicheng.png" width="800" />
 
+<br /><br />
+
+### RAS秘钥生成
+OpenSSL(开源加密库)
+
+* Mac 系统自带
+* Windows 可以使用 git bash 生成
+
+
+```js
+//秘钥
+openssl genrsa -out private.pem 1024
+
+//公钥
+openssl rsa -in private.pem -pubout -out public.pem
+
+```
+
 ### js开源库
 [jsencrypt](https://github.com/travist/jsencrypt)
 
@@ -173,5 +191,3 @@ Hash，一般翻译做“散列”，也有直接音译为“哈希”的，是�
 const hash = md5('Hello World');
 ```
 
-### 后端加解密参考：
-https://my.oschina.net/ahaoboy/blog/3167535
